@@ -26,7 +26,6 @@ Problem Formulation:
 - Logistic regression model: predicts probability of metastatis,
   great for binary classification, fast to train
   
-
 Training:
 
 - Used Scikit-learn's Logistic Regression model
@@ -37,6 +36,7 @@ Overview of files in repository:
 
 - training.csv.zip: metastatic cancer dataset
 - KaggleProject(2).ipynb: processes dataset, displays visuals, and trains model
+- submission.csv: submission file after test
 
 
 
