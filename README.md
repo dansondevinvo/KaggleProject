@@ -26,6 +26,9 @@ The task, as defined by the Kaggle challenge, is to predict the likelihood of me
 <img width="938" alt="Screenshot 2024-12-11 at 11 17 12 AM" src="https://github.com/user-attachments/assets/fa9f089d-1203-4ffc-b14b-e5ac1e321384" />
 
 
+<img width="799" alt="Screenshot 2024-12-11 at 11 30 57 AM" src="https://github.com/user-attachments/assets/c6ce7a08-0a77-47ad-8a5a-73bace955537" />
+
+
 ### Problem Formulation:
 
 - Input / Output:
