@@ -38,11 +38,15 @@ The task, as defined by the Kaggle challenge, is to predict the likelihood of me
   
 ### Training:
 
-- Import necessar libraries like pandas, numpy, sklearn
+- Import necessary libraries like pandas, numpy, sklearn
 - Load and preprocess dataset and split data into features into sets
 - Used Scikit-learn's Logistic Regression model
 - model.fit(x_train, y_train)
 - Fast to train, about 1 minute
+
+### Conclusions
+
+- Accuracy: 61%
 
 ### Overview of files in repository:
 
