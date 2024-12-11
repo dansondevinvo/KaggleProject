@@ -23,6 +23,9 @@ The task, as defined by the Kaggle challenge, is to predict the likelihood of me
 - Encode categorical variables
 - Removed duplicates
 
+<img width="938" alt="Screenshot 2024-12-11 at 11 17 12 AM" src="https://github.com/user-attachments/assets/fa9f089d-1203-4ffc-b14b-e5ac1e321384" />
+
+
 ### Problem Formulation:
 
 - Input / Output:
