@@ -32,12 +32,17 @@ The task, as defined by the Kaggle challenge, is to predict the likelihood of me
 ### Problem Formulation:
 
 - Input / Output:
-  tabular data / binary classification
+  Numerical data was scaled to range from [0,1] using min-max scaling and one-hot encoding used   
+  to scale categorical variables to binary columns. //
+  The output indicates whether metastatic cancer diagnosis occured within 90 days.
 - Logistic regression model: predicts probability of metastatis,
-  great for binary classification, fast to train
+  great for binary classification and very simple and effective,
+  also fast to train
   
 ### Training:
 
+- Import necessar libraries like pandas, numpy, sklearn
+- Load and preprocess dataset and split data into features into sets
 - Used Scikit-learn's Logistic Regression model
 - model.fit(x_train, y_train)
 - Fast to train, about 1 minute
