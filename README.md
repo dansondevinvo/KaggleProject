@@ -1,4 +1,4 @@
-# Kaggle Project
+# Kaggle Project: Metastatic Cancer Diagnosis
 
 
 This repository contains an attempt to use Logistic Regression for metastatic cancer diagnosis using clinical data from a Kaggle challenge.
