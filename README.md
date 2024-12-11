@@ -9,6 +9,7 @@ The task, as defined by the Kaggle challenge, is to predict the likelihood of me
 
 Data:
 
+- CSV file of clinical data
 - 12906 Rows
 - 83 Columns
 
