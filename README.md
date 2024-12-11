@@ -40,7 +40,7 @@ The task, as defined by the Kaggle challenge, is to predict the likelihood of me
 
 - training.csv.zip: metastatic cancer dataset
 - KaggleProject(2).ipynb: processes dataset, displays visuals, and trains model
-- submission.csv: submission file after test
+- kagglesubmission.csv: submission file after test
 
 
 
