@@ -11,6 +11,7 @@ The task, as defined by the Kaggle challenge, is to predict the likelihood of me
 ### Data:
 
 - CSV file of clinical data
+- Target Variable: DiagPeriodL90D
 - 12906 Rows
 - 83 Columns
 
@@ -19,6 +20,7 @@ The task, as defined by the Kaggle challenge, is to predict the likelihood of me
 - Handled missing values
 - Feature scaling
 - Removed outliers
+- Encode categorical variables
 - Removed duplicates
 
 ### Problem Formulation:
@@ -32,7 +34,7 @@ The task, as defined by the Kaggle challenge, is to predict the likelihood of me
 
 - Used Scikit-learn's Logistic Regression model
 - model.fit(x_train, y_train)
-- Fast to train, about 15 minutes
+- Fast to train, about 1 minute
 
 ### Overview of files in repository:
 
