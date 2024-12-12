@@ -35,15 +35,15 @@ The dataset for this metastatic cancer diagnosis project consists of a CSV file 
   
 ### Training:
 
-- Import necessary libraries like pandas, numpy, sklearn
-- Load and preprocess dataset and split data into features into sets
-- Used Scikit-learn's Logistic Regression model
-- model.fit(x_train, y_train)
-- Fast to train, about 1 minute
+The training process for the metastatic cancer diagnosis model began with importing essential libraries such as Pandas, NumPy, and Scikit-learn to facilitate data manipulation and machine learning. The clinical dataset was loaded and preprocessed by handling missing values, scaling features, encoding categorical variables, and removing duplicates and outliers. The data was then split into training and testing sets to evaluate model performance. For model training, Scikit-learn's Logistic Regression was used since it's very simple yet effective. The model was trained using the fit() method on the training data (X_train, y_train). Training was very quick taking about 1 minute to complete because simplicity of logistic regression and the dataset size.
 
 ### Conclusions
 
-- My model had an accuracy of 61%. 
+- My model had an accuracy of 61%. Logistic regression worked well but can definitely be tuned to perform better and result in a higher accuracy. It was a practical machine learining model to use for this dataset and some improvements could make predictions more precise.
+
+### How to Reproduce Results:
+
+To reproduce the results of the metastatic cancer diagnosis kaggle project, I would start by recreating the repository and installing the required libraries, including Pandas, NumPy, and Scikit-learn. Then, preprocess the dataset using the preprocessing.py script, which handles missing values, scales features, and encodes categorical variables. Next, I would train the logistic regression model using the train_model.py script, which trains the model and saves it as model.pkl. For applying the model to new data, load the trained model, preprocess the new dataset in the same way, and use the model to make predictions. This package can also be applied to other similar datasets by adjusting the model's parameters, and evaluating performance.
 
 ### Overview of files in repository:
 
@@ -51,5 +51,7 @@ The dataset for this metastatic cancer diagnosis project consists of a CSV file 
 - KaggleProject(2).ipynb: processes dataset, displays visuals, and trains model
 - kagglesubmission.csv: submission file after test
 
+### Citations:
 
+https://www.kaggle.com/competitions/widsdatathon2024-challenge1/data
 
