@@ -39,7 +39,7 @@ The training process for the metastatic cancer diagnosis model began with import
 
 ### Conclusions
 
-- My model had an accuracy of 61%. Logistic regression worked well but can definitely be tuned to perform better and result in a higher accuracy. It was a practical machine learining model to use for this dataset and some improvements could make predictions more precise.
+My model had an accuracy of 61%. Logistic regression worked well but can definitely be tuned to perform better and result in a higher accuracy. It was a practical machine learining model to use for this dataset and some improvements could make predictions more precise.
 
 ### How to Reproduce Results:
 
