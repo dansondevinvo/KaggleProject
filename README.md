@@ -9,18 +9,15 @@ https://www.kaggle.com/competitions/widsdatathon2024-challenge1/data
 The task, as defined by the Kaggle challenge, is to predict the likelihood of metastasis in cancer patients using medical data. The dataset consists of various clinical and genomic features, and the goal is to classify whether a patient’s cancer will metastasize. The approach in this repository formulates the problem as regression task, using Logistic regression to predict whether cancer is metastatic or not and also used data preprocessing techniques like handling missing values and scaling numerical features. My best model had an accuracy of 61% during the logistic regression task.
 ### Data:
 
-- CSV file of clinical data
-- Target Variable: DiagPeriodL90D
-- 12906 Rows
-- 83 Columns
+The dataset for this metastatic cancer diagnosis project consists of a CSV file of clinical data containing 12,906 rows and 83 columns. The target variable is "DiagPeriodL90D", which serves as the primary label for classification
 
 ### Preprocessing:
 
-- Handled missing values
-- Feature scaling
-- Removed outliers
-- Encode categorical variables
-- Removed duplicates
+- Handled missing values: Numerical features were replaced with the median. Categorical features were replaced with the mode.
+- Feature scaling: Min-max scaling was used to transfor values to a standard range for Logistic Regression 
+- Removed outliers: Outliers identified by IQR and removed
+- Encode categorical variables: One-hot encoding was used to scale categorical variables
+- Removed duplicates: Prevent redundant information
 
 
 <img width="799" alt="Screenshot 2024-12-11 at 11 30 57 AM" src="https://github.com/user-attachments/assets/c6ce7a08-0a77-47ad-8a5a-73bace955537" />
@@ -46,7 +43,7 @@ The task, as defined by the Kaggle challenge, is to predict the likelihood of me
 
 ### Conclusions
 
-- Accuracy: 61%
+- My model had an accuracy of 61%. 
 
 ### Overview of files in repository:
 
