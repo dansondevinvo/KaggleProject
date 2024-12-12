@@ -22,6 +22,9 @@ The dataset for this metastatic cancer diagnosis project consists of a CSV file 
 
 <img width="799" alt="Screenshot 2024-12-11 at 11 30 57 AM" src="https://github.com/user-attachments/assets/c6ce7a08-0a77-47ad-8a5a-73bace955537" />
 
+![Screenshot 2024-12-11 215858](https://github.com/user-attachments/assets/220fb996-8ac1-40da-92fa-6a780f16331f)
+
+
 
 ### Problem Formulation:
 
